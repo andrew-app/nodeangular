@@ -1,0 +1,19 @@
+{
+  "name": "product-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && tsc-alias && node dist/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "tsc-alias": "^1.8.8",
+    "typescript": "^5.4.2"
+  }
+}

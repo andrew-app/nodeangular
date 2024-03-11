@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "esModuleInterop": true,
+      "target": "ESNext",
+      "moduleResolution": "node",
+      "sourceMap": false,
+      "outDir": "dist"
+    },
+    "lib": ["ESNext"],
+    "tsc-alias": {
+        "resolveFullPaths": true
+    }
+}
+  
