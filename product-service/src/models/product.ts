@@ -4,3 +4,5 @@ export interface Product {
     price: number;
     quantity: number;
 }
+
+export const Product = (product: Product) => product;

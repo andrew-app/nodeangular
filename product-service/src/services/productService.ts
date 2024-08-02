@@ -2,7 +2,7 @@ import { ProductRepository } from "../repositories/productRepository";
 
 
 export class ProductService {
-    productRepo: ProductRepository;
+    private productRepo: ProductRepository;
 
     constructor() {
         this.productRepo = new ProductRepository();

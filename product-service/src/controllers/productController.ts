@@ -2,13 +2,13 @@ import { get } from "http"
 import { ProductService } from "../services/productService";
 
 export class ProductController {
-    productService: ProductService;
+    private productService: ProductService;
 
     constructor() {
         this.productService = new ProductService();
     }
 
-    public products() {
+    public getProducts() {
         return this.productService.getProducts();
     }
 }

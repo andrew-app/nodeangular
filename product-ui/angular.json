@@ -65,7 +65,8 @@
               "buildTarget": "product-ui:build:production"
             },
             "development": {
-              "buildTarget": "product-ui:build:development"
+              "buildTarget": "product-ui:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
@@ -97,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

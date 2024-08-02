@@ -11,7 +11,7 @@ const requestListener = (req: IncomingMessage, res: ServerResponse) => {
             switch (req.method) {
                 case 'GET':
                     res.writeHead(200, { 'Content-Type': 'application/json' });
-                    res.end(JSON.stringify(productController.products()));
+                    res.end(JSON.stringify(productController.getProducts()));
                     break;
                 default:
                     res.statusCode = 405;
